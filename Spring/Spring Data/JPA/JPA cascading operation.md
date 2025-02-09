@@ -1,0 +1,6 @@
+- It is all related by relationship between parent and child for different modes like save and delete
+- Persist
+- merge
+- all
+- remove
+- detach

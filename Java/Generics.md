@@ -1,0 +1,6 @@
+- Generics works only with Reference types
+- Generic Types Differ Based on Their Type Arguments
+- The ability to create type-safe code in which type-mismatch errors are caught at compile time is a key advantage of generics.
+- Generics prevent from type casting because we know the type of the class unlike Object
+- Raw generic type: use of generic without specifying type arguments.
+- 

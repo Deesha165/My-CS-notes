@@ -1,0 +1,2 @@
+- JDPC data source implementation provides connection pooling mechanism.
+- JDBC Connection pooling is a mechanism that manages multiple database connection mechanisms and it is responsible for managing connections , allocating new connections and closing connections.

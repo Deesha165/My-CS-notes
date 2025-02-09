@@ -1,0 +1,1 @@
+-  It is specification for java used to persist data between java objects and database, it is bridge between java models and database and it doesn't perform any operations it is specification and must be implemented using ORM tools like Hibernate.

@@ -1,0 +1,2 @@
+- 1xx (informational), 2xx (success), 3xx (redirctional), 4xx (validation error), 5xx(server error)
+- 

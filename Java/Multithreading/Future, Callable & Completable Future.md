@@ -1,0 +1,11 @@
+- what is Future? 
+   - it is interface represents the result or status of async task 
+   - allow you to take care if computation is complete, Get the result and if exception occured
+- what is difference between Runnable and Callable?
+   - both are interfaces to represent the task to being executed but Runnable has no return type unlike Callable
+- Completable Future introduced in java8 and helps in async programming and it is advanced version of future introduced chaining
+- thenApply() is synchronous operation means that second chained task would handled by same thread of the first
+- thenApplyAsync() is asynchronous version
+- they both doesn't gurantee order of execution
+- thenCompose and thenComposeAsync gurantee dependency in chaining
+- 

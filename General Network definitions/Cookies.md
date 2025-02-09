@@ -1,0 +1,2 @@
+- text files stored on the client app and they are kept for tracking purposes.
+- Cookies aren't secured.

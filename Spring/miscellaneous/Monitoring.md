@@ -1,0 +1,1 @@
+- Actuator used for monitoring spring application and provide some features Endpoints, metrics and audit.

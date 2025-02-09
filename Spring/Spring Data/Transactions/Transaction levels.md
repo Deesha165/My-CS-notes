@@ -1,0 +1,21 @@
+- Isolation level: how the changes made by transaction is seen by another parallel running transactions.
+- Isolation level types:
+   - read_uncommited: dirty read possible-> yes, non repeatable read possible-> yes, phantom read possible -> yes 
+   - read_commited: dirty read possible-> no, non repeatable read possible-> yes, phantom read possible -> yes 
+   - repeatable_commited: dirty read possible-> no, non repeatable read possible-> no, phantom read possible -> yes 
+   - serializable: dirty read possible-> no, non repeatable read possible-> no, phantom read possible -> no 
+   - they are ordered from above to below with highest to lowest concurrency
+   - Default isolation level depends on the DBMS but in most relational databases is read_commited as the default isolation level
+   - Dirty read problem: when transaction reads uncommitted data by other transaction and this other transaction rolled back so DB status return back but the problem is the first transaction read un committed data
+   - Non repeatable read problem: if transaction read the same row several times and there is a chance to get different value , as another transaction modified data and committed so when our transaction read same row again it should be same but no it is changed.
+   - phantom read problem: if transaction perform same query each time but there is a chance to get different results.
+   - what is difference between non repeatable read and phantom read?
+     - non repeatable related to inconsistency in same data but phantom read focus on inconsistency in query results more than data itself
+- so same query get more row is considered phantom read but same row is changed is non repeatable read
+- DB locking types: 
+   - shared lock (read lock) : shared between all transactions for reading only can't write for other transactions
+   - exclusive lock (write lock): once it taken with some transaction, other transactions can't read or write
+- read_uncommeted-> locking strategy is no lock for read or write-> present the three problems-> suitable for read only applications-> highest concurrency beacause no locks
+- read_committed-> locking strategy: for read shared lock is acquired and released as soon as read ends and for write exclusive lock acquired and keep until end of transaction
+- repeatable_read-> locking strategy: for read shared lock is acquired and released at the end of transaction and for write exclusive lock acquired and keep until end of transaction
+- serializable: same locking strategy for repeatable_read but also add range lock and lock is released at the end of transaction

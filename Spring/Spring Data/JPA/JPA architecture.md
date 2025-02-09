@@ -1,0 +1,10 @@
+- Persistence unit is used to create -> entity manager factory which used to create many ->entity managers and each manages ->persistence context each one manages-> entities performing JQL to-> Dialect which translates query into sql to ->JDBC whic perform sql query and persist into -. Database
+- Persistence unit is logical grouping of entity classes which share same configurations like database connection properties and JPA provider like Hibernate
+- Entity manager factory is factory to create object of entity manager and can be created using persistence unit configurations.
+- 1 entity manager for 1 persistence unit
+- Entity manager is an interface in JPA that provide methods that perform CRUD operations on entities.
+- Persistence context is the first level cache
+- an entity manager is created for each HTTP request so different methods within the same HTTP request share the same entity manager
+- Once the `EntityManager` is closed, the first-level cache is **cleared**.
+- **Issue: First-level cache (HashMap) becomes useless if keys cannot be properly compared! that is why we must override equals() and hashCode() methods in Composite key class so that ensure proper comparing and hence caching
+- 

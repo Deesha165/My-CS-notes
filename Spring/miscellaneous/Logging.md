@@ -1,0 +1,6 @@
+- Default logging provider is LogBack.
+- use Org.SLF4J to add logging statements.
+- **What it is**: SLF4J is a logging facade or abstraction layer. It provides a uniform API for logging in Java applications, allowing developers to plug in any underlying logging framework (e.g., Logback, Log4j, java.util.logging) at runtime without changing application code.
+- **Purpose**: It decouples the logging API from the logging implementation, making it easier to swap or configure different logging frameworks.
+- **What it is**: Logback is a powerful, flexible, and widely-used logging framework. It is often considered the successor to Log4j. Logback is the default implementation recommended for use with SLF4J.
+- Logging providers like LogBack and Log4j.

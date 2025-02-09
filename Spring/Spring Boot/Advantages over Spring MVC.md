@@ -1,0 +1,3 @@
+- Dependency management: dependencies managed as packages called starters
+- Auto configuration: default configurations 
+- Embedded server: which allow auto deployment just run the app

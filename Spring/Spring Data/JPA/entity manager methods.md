@@ -1,0 +1,8 @@
+- persist(): adding entity into context to be managed.
+- find(): get entity from database if not in context based on primary key.
+- remove():marking entity for removal.
+- merge():merge entity from outside the context to inside the context forming new one if not exist in context.
+- refresh(): mirror the context from database.
+- detach(): taking the entity out of the context.
+- get Reference(): to git data in lazy manner (issue query on database once data is requested)
+- 

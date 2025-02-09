@@ -1,0 +1,2 @@
+- Entity is uniquely identified by its identity which means that it has reference equality but Value Object is uniquely identified by its values which means that it has structured equality.
+- So we represent value object in C# as record because of its immutability and structured equality behaviors so it is good fit.

@@ -1,0 +1,16 @@
+- interface and child of collection interface
+- It follows FIFO approach 
+- Priority Queue arrange based on priority default is minimum
+- Time complexity: Add and Offer: O(log N)
+- Peak: O(1)
+- Poll and Remove head element O(log N)
+- Comparator and Comparable both provides a way to sort collections
+- Sorting algorithm uses compare method of comparator to sort elements
+- Comparator is functional interface with method Compare(T x, T y)
+- Comparable provide method CompareTo(T x) 
+- swap in sorting occurs when value returned>0 
+- What is difference between Comparable and Comparator?
+  - Comparator provides flexibility in sorting criteria if we have differet situations and want to compare based on different properties
+  - Comparable is used when sorting logic is fixed so we provide it into the class itself by implementing the Comparable interface
+- Dequeue is double ended queue
+- 

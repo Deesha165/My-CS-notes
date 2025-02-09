@@ -1,0 +1,3 @@
+- to enable it we must annotate configuration class with @EnableScheduling annotation.
+- we create scheduled jobs using @Scheduled annotation at the desired job.
+- 

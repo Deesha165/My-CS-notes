@@ -1,0 +1,18 @@
+- Domain layer:
+-Entities
+-Value Objects
+-Domain events 
+-domain services
+-interfaces
+-exceptions
+-enums
+- Application layer:
+-Orchestrates the domain
+-contains business logic
+   -application services
+   - CQRS with MediatR
+-defines the use cases
+- Infrastructure layer and presentation layer:
+-infra layer has external systems 
+  -Databases, Messaging, Email providers, storage services, identity and system clock
+-presentation layer : defines the entry point of the system such as Apis or middlewre, Di setup or Javascript SPA 

@@ -1,0 +1,1 @@
+- find get data eagerly and get Reference get data lazily as query wouldn't be issued to database once it is requested.

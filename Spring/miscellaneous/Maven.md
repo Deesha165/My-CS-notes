@@ -1,0 +1,18 @@
+- It is a project management tool helps developers with build generation, dependency resolution and documentation.
+- First part specifies XML schema
+- <parent><parent> used to define the parent project. current project inherit configurations from parent project which in turn inherit from super.pom.
+  - <groupId><groupId> organization or group it belonges to
+  - <artifactId><artifactiId>Used by Maven to uniquely identify and fetch the artifact from a repository (in combination with `groupId` and `version`).
+  - <version><version> version of the project
+  - <name><name> human readable name of the project for display purposes
+  - <properties><properties> are general key value pairs for configuration and can be referenced through the pom
+  - <dependencies><dependencies> where we specify libraries that project depends on
+  - <build><build> from where maven starts building the application
+  - Maven build life cycle: Verify project structure-> compile source code-> test the code(unit tests) -> package compiled code(jar or war) -> verify integrity of the package -> Install the package in local repository -> deploy the package to remote repository
+  - Validate Project structure: checking project configurations 
+  - Compile source code: compile java code into byte code and place compiled files to target folder
+  - test the code : run unit test cases
+  - package compiled code: packaging this byte code files into JAR or WAR formats
+  - Verify integrity of the package :This phase ensures that the project and its generated package (e.g., a JAR, WAR, or other artifact) meet the defined quality standards, validation rules, and integrity checks before proceeding to further steps like deployment.
+  - Install package in local repository : so that it can easily get instead of going to remote repository each time
+  - deploy package to remote repository: by default nothing occur in that phase we specify the server where we want to deploy the project and credentials.

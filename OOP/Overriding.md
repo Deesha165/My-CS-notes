@@ -1,0 +1,9 @@
+- **Upcasting**: Assigning an object of a subclass to a reference of a superclass type.
+- **Method Overriding** occurs when a method in a subclass has the same signature as a method in the superclass and provides a specific implementation.
+- **Dynamic dispatch** or **late binding** or **runtime method resolution** : Mechanism by which java determines the method to call at run time based on the actual object type not the reference type.
+-  **Compile-time binding** (or **static binding**) happens when the method to call is resolved at compile time. This typically happens with **static methods**, **private methods**, or **final methods** because these methods are bound at compile time.
+- **Dynamic binding**, on the other hand, occurs during program execution. This is essential for method overriding where the appropriate method is called based on the actual object type, not the reference type.
+- **Method hiding** occurs when a subclass defines a static method with the same signature as a static method in the superclass.
+- That is why static methods are not polymorphic.
+ - **No overhead** if the method is directly found in the object's class (vtable lookup is O(1)).
+- **Overhead occurs** if the method is not found in the object's class, requiring a search through the inheritance hierarchy to find the nearest matching method.

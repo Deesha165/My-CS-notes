@@ -1,0 +1,4 @@
+- Mechanism used to maintain state and store data about a user across multiple interactions (requests and responses) with a web application. Sessions are crucial because HTTP is a **stateless protocol**, meaning that each request made to a server is independent and has no knowledge of previous requests.
+-  Session data is typically stored on the server.
+- A unique session identifier (ID) is sent to the client, often via a cookie, to associate the client with the session on the server.
+- replacements JWT and OAuth

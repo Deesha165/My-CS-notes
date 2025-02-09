@@ -1,0 +1,7 @@
+- Spring provide cache abstraction api for different cache providers.
+- @EnableChaching used to enable cache management feature in spring
+- @Cacheable used on method level to say that response is cached
+- @CacheEvict to clear cache
+- @CachePut to update cache
+- @Chaching when we want to use @CachePut and @CacheEvict together
+- 

@@ -1,0 +1,1 @@
+- A **Criteria Query** is a programmatic and type-safe way to create queries in JPA (Java Persistence API). Instead of writing JPQL (Java Persistence Query Language) as plain strings, you construct queries dynamically using Java objects. This approach is especially useful when you need to build queries based on conditions that are determined at runtime.

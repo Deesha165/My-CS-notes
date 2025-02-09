@@ -1,0 +1,5 @@
+- interface represents set collections
+- HashSet: depend on HashMap internally as key is given and dummy object value inside so it doesn't maintain order
+- LinkedHashSet: depend on LinkedHashMap internally so it maintain insertion order but doesn't maintain access order because internally access order variable is set to false when instantiating LinkedHashMap
+- TreeSet: depend on TreeMap internally so all operations in O(log(N))
+- 

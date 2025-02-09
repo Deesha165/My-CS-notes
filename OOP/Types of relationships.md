@@ -1,0 +1,5 @@
+- Association: One object interacts with another one.
+- Aggregation: A special form of association where one class is a **part** of another class, but the "part" can exist independently of the "whole." like car and engine . it is weak "has a" relationship.
+- Composition: A stronger form of aggregation where the "part" object **cannot exist independently** of the "whole" object. like human and heart . it is strong "has a" relationship.
+- Inheritance: A relationship where one class derives from another class like dog and animal. it is "is a" relationship.
+- 

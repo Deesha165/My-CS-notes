@@ -1,0 +1,3 @@
+- Lazy: Data is not queried until referenced 
+- Eager: Data is queried upfront
+- Default in case of collection is lazy and in case of one Object eager.

@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "341753fdfee6dc48",
+    "type": "split",
+    "children": [
+      {
+        "id": "d5c1bb18aa6e32c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "542cd9725f2e6d24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Multithreading/Thread pool.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Thread pool"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c127a3e194d20207",
+    "type": "split",
+    "children": [
+      {
+        "id": "6950a8a9fcb00990",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cba4598af2b944cd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "50600eaee9e4a5b3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "58858f07c303202e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "12315328bb2eb387",
+    "type": "split",
+    "children": [
+      {
+        "id": "322994f688af00c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "930baebc4bfcf915",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Clean Architecture/Clean Architecture layers.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Clean Architecture layers"
+            }
+          },
+          {
+            "id": "ce0ddd3a6f448583",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Clean Architecture/Clean Architecture layers.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Clean Architecture layers"
+            }
+          },
+          {
+            "id": "c28b37b9fcaee06a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4f571c3522bc91df",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Clean Architecture/Clean Architecture layers.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Clean Architecture layers"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "cba4598af2b944cd",
+  "lastOpenFiles": [
+    "Spring/Spring Security",
+    "Java/Multithreading/ScheduledThreadPoolExecution.md",
+    "Java/Multithreading/Thread pool.md",
+    "Java/Multithreading/Future, Callable & Completable Future.md",
+    "Java/Multithreading/Normal & Virtual threads.md",
+    "Java/Multithreading/Executors Utility & Fork Join pool.md",
+    "Java/Multithreading/Threading & Concurrency.md",
+    "Java/Multithreading/Lock free concurrency.md",
+    "Java/Multithreading/Lock based concurrency.md",
+    "Java/Multithreading",
+    "Java/Collections/Set.md",
+    "Java/Collections/Map.md",
+    "Java/Collections/Overview.md",
+    "Java/Collections/Queue.md",
+    "Java/Annotations.md",
+    "Java/Overview.md",
+    "Design Patterns/Singleton.md",
+    "Java/Generics.md",
+    "Java/Reflection.md",
+    "Java/Functional Interface.md",
+    "Java/Collections",
+    "Spring/Spring Boot/Dependency Injection.md",
+    "Design Patterns",
+    "Spring/Spring Boot/Advantages over Spring MVC.md",
+    "Spring/Spring Data/JPA/Second Level Cache.md",
+    "Spring/Spring Data/JPA/JPA architecture.md",
+    "Spring/miscellaneous/n+1 problem.md",
+    "Spring/miscellaneous/HikariCP.md",
+    "Spring/miscellaneous/Flyway.md",
+    "Spring Data/miscellaneous",
+    "Spring/Spring Data/JDBC",
+    "Spring/Spring Data/JPA",
+    "Spring/miscellaneous",
+    "Spring/Asynchronous Programming",
+    "Spring/Spring Data/Transactions",
+    "Spring/Spring Data"
+  ]
+}

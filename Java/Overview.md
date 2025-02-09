@@ -1,0 +1,7 @@
+- java is platform independent language has advantage of portability (write once, run everywhere)
+- java program -> through compiler-> byte code-> through JVM-> machine code -> read by CPU and return output
+- JVM is abstract machine transform byte code into machine code and it is platform dependent unlike java program itself
+- JVM is an abstraction layer between Java code and the underlying operating system.
+- JRE: Java Runtime Environment -> JVM + class libraries
+- JDK: Java Development Kit ->JRE+( programming language+ compiler+ debugger)
+- JVM ,JDK,JRE are platform dependent

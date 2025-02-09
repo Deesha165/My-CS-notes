@@ -1,0 +1,4 @@
+- it intersect the HTTP request and response before reaching to the Servlet
+- when to use filters? 
+   - when we want to put logic common for all servlets like spring boot security
+- workflow for filters and interceptors: Servlet container->Filter -> servlet -> interceptor ->controller

@@ -1,0 +1,5 @@
+- Interface based: Fetch specific fields as getters without writing a query.
+- DTO Class-based: Use a DTO and a custom constructor for flexible field selection.
+- Dynamic(generic): Specify the projection type dynamically at runtime.
+- Open projections: Include computed or derived properties with `@Value`.
+- 

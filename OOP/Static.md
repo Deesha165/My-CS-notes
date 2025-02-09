@@ -1,0 +1,3 @@
+- in java static nested class can be instantiated, as static class must be into another class, but in c# outer class can be static and it needn't to be instantiated.
+- Static methods are not polymorphic as it depends on reference type not object type so they are not resolved at runtime.
+- Static methods are example of procedural programming.

@@ -1,0 +1,1 @@
+- An **anonymous class** in Java is a class that is defined and instantiated all in one expression. It is called "anonymous" because it doesn't have a name.

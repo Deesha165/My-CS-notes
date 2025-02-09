@@ -1,0 +1,2 @@
+- Type of programming focus on procedures or functions that operates on data rather than objects.
+- Static methods are example of procedural programming.

@@ -1,0 +1,2 @@
+- Thread local is a class provide access to thread local variables meaning that each thread has its own copy of variables
+- we use one object of ThreadLocal and every thread uses it to set his own variables

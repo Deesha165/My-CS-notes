@@ -1,0 +1,10 @@
+- it is mediator run before and after your actual code 
+- usually we use custom interceptors in caching, authorization, logging
+- custom interceptors before reaching controller class and it is associated to Spring framework
+   - we implement interface HandlerInterceptor and override three methods preHandle, postHandle, afterCompletion.
+   - and configure and register this interceptor in registry to determine which api's we would implement for and what are excluded ones
+- custom interceptors after reaching to specific controller class
+   - create custom annotation 
+   - then create aspect annotated with this custom annotation and apply around advice 
+   - so we now run interceptor for methods that have specific annotations
+- 

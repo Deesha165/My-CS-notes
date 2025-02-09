@@ -1,0 +1,2 @@
+- After adding the `@EnableAsync` annotation, Spring will create a pool of threads to handle async requests. By default, Spring will create a pool of size 8 threads.
+- we will add the `@Async` annotation to the method. This annotation will tell Spring to _run the method in a separate thread_ from the main thread.

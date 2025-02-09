@@ -1,0 +1,11 @@
+- **Final variables**:
+    - Must be initialized once (at declaration or in the constructor).
+    - Cannot be reassigned.
+- **Final methods**:
+    - Cannot be overridden by subclasses.
+- **Final classes**:
+    - Cannot be extended by any class.
+- **Immutability**:
+    - The `final` keyword aids in creating immutable classes by combining it with `private` and `getter`-only properties.
+- final can't be combined with abstract.
+- final with static to represent constant

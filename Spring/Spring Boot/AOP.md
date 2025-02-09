@@ -1,0 +1,20 @@
+- it helps to intercept method invocation and perform processing before and after execution
+- used during logging, transaction management and security
+- helps in reusability and maintainability of code
+- @Aspect tells spring that this is aspect class contains some methods needs to be intercepted
+- Advice is the logic that want to be applied in aspect
+- Pointcut is an expression tells where an advice should be applied
+- types of pointcut
+   - execution: matches particular method in particular class
+   - within: matches all methods within any class or package
+   - @within: matches all methods in a class that have specific annotation
+   - @annotation: matches all methods that have specific annotation
+   - Args: matches any method with specific arguments
+   - @Args: matches any method that has parameters and this parameter class is annotated with given annotation
+   - target: matches any method on a particular instance of a class
+   - 
+- wild card * matches 1 or more items 
+- .. matches 0 or more items
+- @Around = @Before + @After
+- AOP workflow:
+   -> application start -> look for @Aspect annotation classes -> parse the pointcut expression (done by PointcutParser.java) -> stored in efficient data structure or cache -> look for @Component, @Service@Controller .. etc annotation classes -> for each class it checks if it is eligible for interception based on pointcut expression (done by AbstractAutoProxy.java) -> if yes it creates a proxy using JDK dynamic proxy this proxy has code which executes advice before the advice

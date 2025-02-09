@@ -1,0 +1,12 @@
+- Locking doesn't depend on object like synchronize method(Monitor lock depends on object)
+- Reentrant lock: synchronization mechanism more flexible than synchronized as lock on certain code regardless objects like synchronized
+- ReadWrite lock: more than one thread acquire read lock and only one thread acquire the write lock
+- stamped lock: ReadWrite lock functionality+ optimistic reading also
+- optimistic locking require no locks  such as stamped locking
+- pessimistic locking require locks such as Reentrant, ReadWrite, Synchronized locking mechanisms
+- idea of optimistic locking is there is row version number maintained when insertion of row set to 1 and for any update row version increases by one so when update to database after reading the row it compare retrieved row version with that of DB if they differ so another updated it so rollback and if the same so no update occurred then insert into DB
+- stamped locking works as ReadWrite lock or optimistic lock and lock version is like row version in DB
+- Semaphore locking: allow multiple threads to acquire a lock
+- await()=wait()
+- signal()=notify()
+- 

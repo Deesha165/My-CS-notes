@@ -1,0 +1,7 @@
+- It is built on the top of Spring framework.
+- Spring Boot creates stand alone Spring apps can be started using java -jar
+- it adds Embedded server like TomCat by default.
+- it is based on principle of "convention over configuration".
+- No XML configurations.
+- Provides "starter" POMs to simplify our Maven configuration.
+- 

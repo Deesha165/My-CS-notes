@@ -1,0 +1,2 @@
+- JAR is a format Used to package Java classes, libraries, and resources into a single compressed file.
+- WAR is a format Used to package **web applications** (Java EE/ Jakarta EE) for deployment on a servlet container or application server (e.g., Tomcat, WildFly, JBoss).

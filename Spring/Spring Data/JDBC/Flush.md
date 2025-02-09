@@ -1,0 +1,13 @@
+- - The **persistence context** is a part of JPA/Hibernate that keeps track of all the entities that are being managed within a transaction.
+- Any changes you make to these entities (e.g., updating a field or deleting an object) are stored in memory and not immediately reflected in the database.
+- These changes remain in the persistence context until either:
+    - A **flush** happens.
+    - The transaction commits.
+- **Flush**: Synchronizes the persistence context with the database by executing SQL for pending changes.
+- **When it Happens**:
+    - Automatically (before queries or commits) or manually (via `flush()`).
+- **Why It's Important**:
+    - Ensures data consistency between the in-memory state and the database.
+    - Provides control over when changes are sent to the database without committing the transaction.
+- Remember : No commit, No persistence.
+- Flush is responsible for synchronizing memory and database but it still needs to commit these changes to persist.

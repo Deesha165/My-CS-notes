@@ -1,0 +1,7 @@
+- Transient(new): An entity is in the **transient** state when it is created using the `new` operator but has not been associated with a persistence context and has no representation in the database.
+- Persistent(managed): An entity is in the **persistent** state when it is associated with a persistence context and is being tracked by JPA. Changes to the entity are synchronized with the database in case of commit only.
+- Detached: An entity is in the **detached** state when it was once persistent (managed) but is no longer associated with a persistence context.
+- Removed :An entity is in the **removed** state when it is scheduled for deletion from the database.
+- Merged: make detached entity managed by context by creating new instance in context and in case of it is in database it just merges or updates with new into existing one in context.
+- so merge is translated into (select query, update or insert query)
+- In JPA Context is a mirror to database meaning that last change would only persist  

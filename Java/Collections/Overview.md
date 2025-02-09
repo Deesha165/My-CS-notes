@@ -1,0 +1,7 @@
+- why we need collection framework ?
+   - there is no common interface so it is difficult to remember the methods for each 
+- Iterable used to traverse the collection and it is parent for all iterable collections
+- what is difference between collection and collections?
+  -  Collection is interface expose various methods implemented by various classes such as ArrayList, HashSet
+  - but Collections is utility class help us to operate on collections such as swap, copy, reverse, searching, sort
+  - 

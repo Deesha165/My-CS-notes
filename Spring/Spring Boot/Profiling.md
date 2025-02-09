@@ -1,0 +1,4 @@
+- @Profile annotation is intended for environment separations rather than specific bean creation
+- Profiling for handling different configurations in different environments dev, QA and production
+- the ability to create and manage different configurations for different environments (e.g., development, testing, production) using **Spring profiles**. This mechanism helps developers define environment-specific settings and behaviors, ensuring applications run optimally and with the correct configurations across various stages of the software lifecycle.
+- @Profile is used to specify creation of bean into specific environment
