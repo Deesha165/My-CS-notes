@@ -1,0 +1,3 @@
+- what is CORS( cross origin resource sharing)?
+   - it is not attack but security feature prevent web pages from making request from different origin unless allowed by the server
+   - Different origin= protocol+ domain+ port

@@ -1,0 +1,3 @@
+- Authentication : verifying who you are
+- Authorization: checking what you are allowed to do
+- 

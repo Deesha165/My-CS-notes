@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d5c1bb18aa6e32c0",
+        "id": "a7fd4a63b5b297d4",
         "type": "tabs",
         "children": [
           {
-            "id": "542cd9725f2e6d24",
+            "id": "61e526fddedd3121",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Multithreading/Thread pool.md",
+                "file": "Spring/Spring Security/Authentication methods/OAuth.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Thread pool"
+              "title": "OAuth"
             }
           }
         ]
@@ -163,43 +163,50 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cba4598af2b944cd",
+  "active": "61e526fddedd3121",
   "lastOpenFiles": [
+    "Spring/Spring Security/Authentication methods/JWT Authentication.md",
+    "Spring/Spring Security/Authentication methods/OAuth.md",
+    "Pasted image 20250503161200.png",
+    "Spring/Spring Security/Authentication methods/Form Login Authentication.md",
+    "Pasted image 20250503161029.png",
+    "Pasted image 20250503160946.png",
+    "Spring/Spring Security/Authentication methods/Basic Auuthentication.md",
+    "Pasted image 20250503160715.png",
+    "Spring/Spring Security/Spring Security Architecture.md",
+    "Spring/Spring Security/Authentication methods",
+    "Spring/Spring Security/User Creation and storing user name and password.md",
+    "Pasted image 20250502172251.png",
+    "Pasted image 20250502172138.png",
+    "Pasted image 20250502171905.png",
+    "Spring/Spring Security/Authentication & Authorization.md",
+    "Spring/Spring Security/SQL Injection.md",
+    "Spring/Spring Security/CORS.md",
+    "Spring/Spring Security/XSS.md",
+    "Spring/Spring Security/CSRF.md",
+    "Spring/Spring Boot/Advantages over Spring MVC.md",
+    "Spring/Spring Data/Transactions/Transaction levels.md",
+    "Spring/Spring Data/JPA/JPA architecture.md",
+    "Spring/Spring Data/JPA/Second Level Cache.md",
+    "Spring/Spring Data/JPA/Projections.md",
+    "Spring/Spring Data/JPA/JPA fetch type.md",
+    "Spring/Spring Data/JPA/JPA Entity Life Cycle.md",
+    "networks/OSI Model.md",
+    "Spring/Spring Security",
+    "Untitled",
+    "Java/Multithreading/Thread pool.md",
+    "networks",
+    "operating systems",
     "Spring/Spring Security",
     "Java/Multithreading/ScheduledThreadPoolExecution.md",
-    "Java/Multithreading/Thread pool.md",
     "Java/Multithreading/Future, Callable & Completable Future.md",
     "Java/Multithreading/Normal & Virtual threads.md",
     "Java/Multithreading/Executors Utility & Fork Join pool.md",
     "Java/Multithreading/Threading & Concurrency.md",
     "Java/Multithreading/Lock free concurrency.md",
-    "Java/Multithreading/Lock based concurrency.md",
     "Java/Multithreading",
-    "Java/Collections/Set.md",
-    "Java/Collections/Map.md",
-    "Java/Collections/Overview.md",
-    "Java/Collections/Queue.md",
-    "Java/Annotations.md",
-    "Java/Overview.md",
-    "Design Patterns/Singleton.md",
-    "Java/Generics.md",
-    "Java/Reflection.md",
-    "Java/Functional Interface.md",
     "Java/Collections",
-    "Spring/Spring Boot/Dependency Injection.md",
     "Design Patterns",
-    "Spring/Spring Boot/Advantages over Spring MVC.md",
-    "Spring/Spring Data/JPA/Second Level Cache.md",
-    "Spring/Spring Data/JPA/JPA architecture.md",
-    "Spring/miscellaneous/n+1 problem.md",
-    "Spring/miscellaneous/HikariCP.md",
-    "Spring/miscellaneous/Flyway.md",
-    "Spring Data/miscellaneous",
-    "Spring/Spring Data/JDBC",
-    "Spring/Spring Data/JPA",
-    "Spring/miscellaneous",
-    "Spring/Asynchronous Programming",
-    "Spring/Spring Data/Transactions",
-    "Spring/Spring Data"
+    "Spring Data/miscellaneous"
   ]
 }
