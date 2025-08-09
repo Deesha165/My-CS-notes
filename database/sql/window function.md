@@ -1,0 +1,14 @@
+- Perform aggregate operations on group of rows producing result for each group
+- Over() create window for set of rows
+- Partition by like group by but used along with over() to introduce aggregate values beside single column results which can't be done using group by
+- we can get rolling or cumulative behavior by ordering value inside each window like 
+  select sum(salary) from employees over(partition by department order by salary ) as rolling_sum
+- Rank() is window function returns the rank of the current row within its partition, with gaps and receive the same rank 
+- Rank() is not same as Row_Number() it ranks based on value so if there is many rows have same value so they have same rank but different row numbers
+- Row_number() is window function order consecutive rows from 1 to n and must be tied to order by 
+- Dense_rank() is window function same as Rank() but it don't skip rows
+- NTILE(N) divide rows into n buckets and gives them the number of the bucket
+- FIRST_VALUE(expr) returns the value of expr from the first row of the window frame
+- LAST_VALUE(expr) same but for last
+- NTH_VALUE(expr,N) to get the nth one
+- LEAD(value) used to compare value of the next row to current and LAG(value) used to compare value of previous row to current

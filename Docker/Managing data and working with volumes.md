@@ -1,0 +1,3 @@
+- Volumes are folders on your host machine hard drive which are mounted("made available", mapped) into containers.
+- It solves the problem of persistence of data when starting container again after changes at the code.
+- Volumes persist if a container shuts down . if a container starts and mounts a volume , any data inside that volume would be added to the container.

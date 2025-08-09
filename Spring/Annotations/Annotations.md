@@ -23,3 +23,4 @@
        - complexity in managing
        - multiple bean creation with the same configuration brings confusion
 - @Value: binds values from application.properties 
+- `@MapsId` is a JPA annotation used to **map a foreign key as a part of a composite primary key**. It’s particularly useful when you're working with **shared primary key relationships** — where the **primary key of one entity is also a foreign key to another entity**.
